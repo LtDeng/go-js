@@ -1,0 +1,31 @@
+{
+  "name": "go-js",
+  "version": "1.0.0",
+  "description": "The game of Go",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LtDeng/go-js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LtDeng/go-js/issues"
+  },
+  "homepage": "https://github.com/LtDeng/go-js#readme",
+  "dependencies": {
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "ws": "^8.18.0"
+  }
+}
