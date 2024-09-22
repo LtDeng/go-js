@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Go Game</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: white; /* White background for the page */
+      }
+      canvas {
+        border: 1px solid black;
+        background-color: #d2b48c; /* Tan color for the board */
+      }
+      .controls {
+        margin-top: 10px;
+      }
+      button {
+        margin: 5px;
+        padding: 10px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="goBoard" width="470" height="470"></canvas>
+    <div class="controls">
+      <button id="resetButton">Reset Game</button>
+      <button id="undoButton">Undo Last Move</button>
+      <button id="startButton">Start Game</button>
+    </div>
+    <script src="go.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
